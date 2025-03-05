@@ -10,10 +10,13 @@
     <header class="header">
       <div class="container">
         <div class="header-container">
-          <a href="#">
-            <img src="img/logo.png" alt="DOGclub" />
-          </a>
-          <nav>
+          <div class="header-logo">
+            <a href="#">
+              <img src="./svg/logo.svg" alt="logo" />
+            </a>
+          </div>
+
+          <nav class="header-navigation">
             <ul class="header-menu">
               <li class="header-link">Less talk</li>
               <li class="header-link">Services category</li>
@@ -22,9 +25,14 @@
             </ul>
           </nav>
 
-          <div>
-            <a href="#"> 🛒 </a>
-            <button type="button">contact us</button>
+          <div class="header-buttons">
+            <button class="button-cart">
+              <svg width="40" height="40">
+                <use href="/svg/icons.svg#icon-card-shop"></use>
+              </svg>
+            </button>
+
+            <button class="button" type="button">Contact us</button>
           </div>
         </div>
       </div>
@@ -41,9 +49,11 @@
               <p class="hero-section-text">
                 Human–canine bonding is the relationship between dogs and humans
               </p>
-              <a class="hero-section-button" href="#"> Explore More </a>
+              <a class="hero-section-button button" href="#"> Explore More </a>
             </div>
-            <div class="hero-section-image">dog image</div>
+            <div class="hero-section-image">
+              <img src="/images/hero-big.webp" alt="Dog" />
+            </div>
           </div>
         </div>
       </section>
