@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Dog Club</title>
   </head>
   <body>
@@ -10,21 +11,19 @@
       <div class="container">
         <div class="header-container">
           <a href="#">
-            <img src="img/logo.png" alt="DOGclub">
+            <img src="img/logo.png" alt="DOGclub" />
           </a>
           <nav>
-            <ul>
-              <li>Less talk</li>
-              <li>Services category</li>
-              <li>Happy customer</li>
-              <li>Contact</li>
+            <ul class="header-menu">
+              <li class="header-link">Less talk</li>
+              <li class="header-link">Services category</li>
+              <li class="header-link">Happy customer</li>
+              <li class="header-link">Contact</li>
             </ul>
           </nav>
-          
+
           <div>
-            <a href="#">
-              🛒
-            </a>
+            <a href="#"> 🛒 </a>
             <button type="button">contact us</button>
           </div>
         </div>
@@ -32,159 +31,162 @@
     </header>
     <main>
       <!-- Hero -->
-      <section>
+      <section class="hero-section">
         <div class="container">
-          <div>
-            <h1>Taking care for your Smart Dog!</h1>
-            <p>Human–canine bonding is the relationship between dogs and humans</p>
-            <a href="#">
-              <button type="button">Explore More</button>
-            </a>
-          </div>
-          <div>
-            dog image
+          <div class="hero-section-container">
+            <div class="hero-section-info">
+              <h1 class="hero-section-title">
+                Taking care for your Smart Dog!
+              </h1>
+              <p class="hero-section-text">
+                Human–canine bonding is the relationship between dogs and humans
+              </p>
+              <a class="hero-section-button" href="#"> Explore More </a>
+            </div>
+            <div class="hero-section-image">dog image</div>
           </div>
         </div>
       </section>
 
       <!-- Less talk -->
-      <section>
-      <div class="container">
-        <div>
-          dog image 
+      <section class="talk-section">
+        <div class="container">
+          <div class="talk-section-container">
+            <div class="talk-section-image">dog image</div>
+            <div class="talk-section-info">
+              <h2 class="talk-section-title">Less talk and more walk</h2>
+              <p class="talk-section-text">
+                Sometimes our career, lifestyle, or routines can make it
+                difficult to provide your pet with the recommended amount of
+                exercise that they need. Which is why, it’s okay to use an extra
+                hand in walking dogs so they are in perfect shape, mentally and
+                physically.
+              </p>
+              <a href="#" class="talk-section-button"> Explore More </a>
+            </div>
+          </div>
         </div>
-        <div>
-          <h2>Less talk and more walk</h2>
-          <p>
-            Sometimes our career, lifestyle, or routines can make it difficult to
-            provide your pet with the recommended amount of exercise that they
-            need. Which is why, it’s okay to use an extra hand in walking dogs so
-            they are in perfect shape, mentally and physically.
-          </p>
-          <a href="#">
-            <button>Explore More</button>
-          </a>
-        </div>
-      </div>
       </section>
 
       <!-- Servises -->
-      <section>
+      <section class="services-section">
         <div class="container">
-          <h2>Services category</h2>
-          <article>
-            <!-- SVG -->
-             <p>
-              Grooming             
-               <p>    
-          </article>
-          <article>
-            <!-- SVG -->
-             <p>
-              Nutrition
-              <p>
-          </article>
-          <article>
-            <!-- SVG -->
-             <p>
-              Training
-              <p>
-          </article>
-            <article>
-            <!-- SVG -->
-             <p>
-              Bathing
-              <p>
-          </article>
+          <div class="services-section-container">
+            <h2 class="services-section-title">Services category</h2>
 
+            <article class="services-section-card">
+              <!-- SVG -->
+              <p class="services-section-card-text">Grooming</p>
+            </article>
+
+            <article class="services-section-card">
+              <!-- SVG -->
+              <p class="services-section-card-text">Nutrition</p>
+            </article>
+
+            <article class="services-section-card">
+              <!-- SVG -->
+              <p class="services-section-card-text">Training</p>
+            </article>
+
+            <article class="services-section-card">
+              <!-- SVG -->
+              <p class="services-section-card-text">Bathing</p>
+            </article>
+          </div>
         </div>
       </section>
 
       <!-- customer -->
-      <section>
+      <section class="customer-section">
         <div class="container">
-          <h2>Happy customer</h2>
-          
-          <button>prev</button>
-          
-          <div>
-            <article>
-              <div>
-                <h4>Christin & Tom</h4>
-                <p>Love the overall workout experience!</p>
-                <div>bones 5/5</div>
-              </div>
-            </article>
-             <article>
-              <div>
-                <h4>Anna & Tobby</h4>
-                <p>Amazing Products & Delivery on time.</p>
-                <div>bones 4/5</div>
-              </div>
-            </article>
-             <article>
-              <div>
-                <h4>Sindy & Kitch</h4>
-                <p>Great job with the trainer</p>
-                <div>bones 5/5</div> 
-              </div>
-            </article>
-            
+          <div class="customer-section-container">
+            <h2 class="customer-section-title">Happy customer</h2>
+
+            <button class="customer-section-button prev">prev</button>
+
+            <div class="customer-section-cards">
+              <article class="customer-section-card">
+                <div class="card-backgrond">
+                  <h4 class="card-title">Christin & Tom</h4>
+                  <p class="card-text">Love the overall workout experience!</p>
+                  <div class="card-stars">bones 5/5</div>
+                </div>
+              </article>
+              <article class="customer-section-card">
+                <div class="card-backgrond">
+                  <h4 class="card-title">Anna & Tobby</h4>
+                  <p class="card-text">Amazing Products & Delivery on time.</p>
+                  <div class="card-stars">bones 4/5</div>
+                </div>
+              </article>
+              <article class="customer-section-card">
+                <div class="card-backgrond">
+                  <h4 class="card-title">Sindy & Kitch</h4>
+                  <p class="card-text">Great job with the trainer</p>
+                  <div class="card-stars">bones 5/5</div>
+                </div>
+              </article>
+            </div>
+
+            <button class="customer-section-button next">next</button>
           </div>
-          
-          <button>next</button>
-          
         </div>
       </section>
 
       <!-- Contact -->
-      <section>
+      <section class="conatct-section">
         <div class="container">
-        <h2>Our experts will take care of your friend</h2>
-        <p>Fill out the form so we can contact you!</p>
-        
-        Тут буде форма колись 
+          <div class="conatct-section-container">
+            <h2 class="conatct-section-title">
+              Our experts will take care of your friend
+            </h2>
+            <p class="conatct-section-text">
+              Fill out the form so we can contact you!
+            </p>
 
+            Тут буде форма колись
+          </div>
         </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <div class="container">
-
-        <div>
-          <a href="#">
-            <!-- logo -->
-          </a>
-          <div>
-            Instagram - Facebook
-            отак
+        <div class="footer-container">
+          <div class="footer-links">
+            <a href="#">
+              <!-- logo -->
+            </a>
+            <div>Instagram - Facebook отак</div>
           </div>
+
+          <nav class="footer-navigation">
+            <ul>
+              <li class="footer-link">Less talk</li>
+              <li class="footer-link">Services category</li>
+              <li class="footer-link">Happy customer</li>
+              <li class="footer-link">Contact</li>
+            </ul>
+          </nav>
+
+          <div class="footer-form">
+            <form action="">
+              <label for="email">@ Your email</label>
+              <input type="text" name="email" />
+
+              <label for="cmc">Your cmc</label>
+              <input type="text" name="cmc" />
+
+              <button type="button">Contact us</button>
+
+              <label for="policy">I agree to the privacy policy </label>
+              <input type="checkbox" name="policy" />
+            </form>
+          </div>
+
+          <div class="footer-image">footer image</div>
         </div>
-
-        <nav>
-          <ul>
-            <li>Less talk</li>
-            <li>Services category</li>
-            <li>Happy customer</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-        
-        <form action="">
-          <label for="email">@ Your email</label> 
-          <input type="text" name="email">
-
-          <label for="cmc">Your cmc</label>
-          <input type="text" name="cmc">
-
-          
-          <button type="button">Contact us</button>
-          
-          <label for="policy">I agree to the privacy policy </label>
-          <input type="checkbox" name="policy">
-        </form>
-
       </div>
     </footer>
   </body>
