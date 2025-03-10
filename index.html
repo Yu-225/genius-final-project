@@ -62,7 +62,9 @@
       <section class="talk-section">
         <div class="container">
           <div class="talk-section-container">
-            <div class="talk-section-image">dog image</div>
+            <div class="talk-section-image">
+              <img src="/images/talk.webp" alt="Less talk dog" />
+            </div>
             <div class="talk-section-info">
               <h2 class="talk-section-title">Less talk and more walk</h2>
               <p class="talk-section-text">
@@ -84,62 +86,114 @@
           <div class="services-section-container">
             <h2 class="services-section-title">Services category</h2>
 
-            <article class="services-section-card">
-              <!-- SVG -->
-              <p class="services-section-card-text">Grooming</p>
-            </article>
+            <ul class="services-section-list">
+              <li class="services-section-item">
+                <article class="services-section-card effect-1">
+                  <svg width="96" height="96">
+                    <use href="/svg/icons.svg#icon-Grooming"></use>
+                  </svg>
+                  <p class="services-section-card-text">Grooming</p>
+                </article>
+              </li>
+              <li class="services-section-item">
+                <article class="services-section-card effect-1">
+                  <svg width="96" height="96">
+                    <use href="/svg/icons.svg#icon-Nutrition"></use>
+                  </svg>
+                  <p class="services-section-card-text">Nutrition</p>
+                </article>
+              </li>
+              <li class="services-section-item">
+                <article class="services-section-card effect-1">
+                  <svg width="96" height="96">
+                    <use href="/svg/icons.svg#icon-Training"></use>
+                  </svg>
+                  <p class="services-section-card-text">Training</p>
+                </article>
+              </li>
+              <li class="services-section-item">
+                <article class="services-section-card effect-1">
+                  <svg width="96" height="96">
+                    <use href="/svg/icons.svg#icon-Bathing"></use>
+                  </svg>
+                  <p class="services-section-card-text">Bathing</p>
+                </article>
+              </li>
 
-            <article class="services-section-card">
-              <!-- SVG -->
-              <p class="services-section-card-text">Nutrition</p>
-            </article>
-
-            <article class="services-section-card">
-              <!-- SVG -->
-              <p class="services-section-card-text">Training</p>
-            </article>
-
-            <article class="services-section-card">
-              <!-- SVG -->
-              <p class="services-section-card-text">Bathing</p>
-            </article>
+              <a href="#">more services </a>
+            </ul>
           </div>
         </div>
       </section>
 
-      <!-- customer -->
+      <!-- Customer -->
       <section class="customer-section">
         <div class="container">
           <div class="customer-section-container">
             <h2 class="customer-section-title">Happy customer</h2>
 
-            <button class="customer-section-button prev">prev</button>
+            <div class="customer-section-carusel">
+              <button class="carusel-button prev"><--</button>
 
-            <div class="customer-section-cards">
-              <article class="customer-section-card">
-                <div class="card-backgrond">
-                  <h4 class="card-title">Christin & Tom</h4>
-                  <p class="card-text">Love the overall workout experience!</p>
-                  <div class="card-stars">bones 5/5</div>
-                </div>
-              </article>
-              <article class="customer-section-card">
-                <div class="card-backgrond">
-                  <h4 class="card-title">Anna & Tobby</h4>
-                  <p class="card-text">Amazing Products & Delivery on time.</p>
-                  <div class="card-stars">bones 4/5</div>
-                </div>
-              </article>
-              <article class="customer-section-card">
-                <div class="card-backgrond">
-                  <h4 class="card-title">Sindy & Kitch</h4>
-                  <p class="card-text">Great job with the trainer</p>
-                  <div class="card-stars">bones 5/5</div>
-                </div>
-              </article>
+              <div class="carusel-cards">
+                <article class="carusel-card">
+                  <img
+                    class="card-img"
+                    src="images/customer-1.jpg"
+                    alt="Christin & Tom"
+                  />
+                  <div class="card-panel">
+                    <h4 class="card-title">Christin & Tom</h4>
+                    <p class="card-text">
+                      Love the overall workout experience!
+                    </p>
+                    <div class="card-stars">
+                      <svg width="192" height="14">
+                        <use href="/svg/icons.svg#icon-services-5-5"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="carusel-card">
+                  <img
+                    class="card-img"
+                    src="images/customer-2.jpg"
+                    alt="Anna & Tobby"
+                  />
+                  <div class="card-panel">
+                    <h4 class="card-title">Anna & Tobby</h4>
+                    <p class="card-text">
+                      Amazing Products & Delivery on time.
+                    </p>
+                    <div class="card-stars">
+                      <svg width="192" height="14">
+                        <use href="/svg/icons.svg#icon-services-4-5"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="carusel-card">
+                  <img
+                    class="card-img"
+                    src="images/customer-3.jpg"
+                    alt="Sindy & Kitch"
+                  />
+                  <div class="card-panel">
+                    <h4 class="card-title">Sindy & Kitch</h4>
+                    <p class="card-text">Great job with the trainer</p>
+                    <div class="card-stars">
+                      <svg width="192" height="14">
+                        <use href="/svg/icons.svg#icon-services-5-5"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <button class="carusel-button next">--></button>
             </div>
-
-            <button class="customer-section-button next">next</button>
           </div>
         </div>
       </section>
@@ -155,7 +209,7 @@
               Fill out the form so we can contact you!
             </p>
 
-            Тут буде форма колись
+            <div class="future-form">FORM</div>
           </div>
         </div>
       </section>
@@ -164,35 +218,24 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-container">
-          <div class="footer-links">
-            <a href="#">
-              <!-- logo -->
-            </a>
-            <div>Instagram - Facebook отак</div>
-          </div>
+          <div class="footer-items">
+            <div class="footer-links">
+              <a href="#">
+                <img src="./svg/logo.svg" alt="logo" />
+              </a>
+              <div>Inst - Fb</div>
+            </div>
 
-          <nav class="footer-navigation">
-            <ul>
-              <li class="footer-link">Less talk</li>
-              <li class="footer-link">Services category</li>
-              <li class="footer-link">Happy customer</li>
-              <li class="footer-link">Contact</li>
-            </ul>
-          </nav>
+            <nav class="footer-navigation">
+              <ul>
+                <li class="footer-link">Less talk</li>
+                <li class="footer-link">Services category</li>
+                <li class="footer-link">Happy customer</li>
+                <li class="footer-link">Contact</li>
+              </ul>
+            </nav>
 
-          <div class="footer-form">
-            <form action="">
-              <label for="email">@ Your email</label>
-              <input type="text" name="email" />
-
-              <label for="cmc">Your cmc</label>
-              <input type="text" name="cmc" />
-
-              <button type="button">Contact us</button>
-
-              <label for="policy">I agree to the privacy policy </label>
-              <input type="checkbox" name="policy" />
-            </form>
+            <div class="footer-form">Footer Form</div>
           </div>
 
           <div class="footer-image">footer image</div>
